@@ -1,4 +1,4 @@
-% Yay, the article for the end of this year, in LaTeX.
+% Yay, the article for the end of this year, in LaTeX.
 
 \documentclass[a4paper, 12pt]{article}
 
@@ -67,7 +67,7 @@
     {1-}{{{\color{codenumbers}1-}}}2
     {1+}{{{\color{codenumbers}1+}}}2
     {remove-if}{{{\color{keycolor}remove-if}}}8
-    {if}{{{\color{keycolor}if}}}2
+    {if\ }{{{\color{keycolor}if}}}2
     {True}{{{\color{teal}True}}}4
     {False}{{{\color{teal}False}}}4
     {await}{{{\color{keycolor}await}}}5
@@ -103,18 +103,15 @@
 \begin{document}
 \maketitle
 \newpage
-
+\tableofcontents
 \newpage
 \section{Histoire.}
-
-\section{L'approche logique.}
-\subsection{Les bases de la logique}
 \subsection{Origines.}
 Avant les premières découvertes scientifiques concernant l'intelligence artificielle, elle est déjà imaginée dans des oeuvres de fiction dans lesquelles des des artisans seraient capables de mettre au point des êtres artificiels dotés d'une intelligence. Certains de ces êtres artificiels verront le jour sous la forme d'automates (Ex: Automates de Vaucanson, 18e siècle).\\
 
 L'intelligence artificielle comme nous la connaissons aujourd'hui a d'abord été présentée par des philosphes de l'ère classique, Leibniz par exemple. Ils avançaient que la pensée humaine était un raisonnement mécanique explicable par les mathématiques. Ils n'ont cependant jamais tenté de créer une intelligence artificielle.\\
 
-Entre les années 1930 et 1950 de nombreux progrès sont faits en neurologie, on comprend que le cerveau est un réseau de neurones qui envoient un signal électrique binaire (c.f. Théorie de l'information de Claude Shannon). La théorie du calcul d'Alan Turing montre que toute forme de calcul peut être représentée numériquement. Additionés au travail de Norbert Wiener sur la cybernétique, ces progrès poussent la communauté scientifique à croire en la possibilité de construire un cerveau artificiel.
+Entre les années 1930 et 1950 de nombreux progrès sont faits en neurologie, on comprend que le cerveau est un réseau de neurones qui envoient un signal électrique binaire (cf. Théorie de l'information de Claude Shannon). La théorie du calcul d'Alan Turing montre que toute forme de calcul peut être représentée numériquement. Additionés au travail de Norbert Wiener sur la cybernétique, ces progrès poussent la communauté scientifique à croire en la possibilité de construire un cerveau artificiel.
 \subsection{Arrivée des premiers ordinateurs.}
 Les premiers ordinateurs modernes feront leur apparition durant la seconde guerre mondiale poussés par la quête d'informations protégées par des codes sur les stratégies des différents camps.
 \subsubsection{Premières concrétisations d'intelligences artificielles:}
@@ -130,16 +127,16 @@ La conférence de Dartmouth organisée par Marvin Minsky, John McCarthy, Claude 
 
 La méthode alors utilisée par la grande majorité des programmes consiste à avancer pas à pas en faisant des essais-erreurs. Cette méthode montrera toutefois ses limites face aux \textit{explosions combinatoires} (problèmes dont le nombre de chemins possibles vers une solution est astronomique).
 \subsection{L'hiver de l'IA (1974-1980).}
-L'année 1974 marque le début de la période creuse de l'histoire de l'intelligence artificielle. Cela est du au retour à la réalité des chercheurs en IA qui se retrouvaient face à des impasses, limités par le niveau technologique de l'époque. Cette baisse de vitesse dans les découvertes accompagnée de nombreuses critiques concernant les recherches menées jusqu'alors provoquera la déception et le retrait de nombreux investisseurs optimistes.\\
+L'année 1974 marque le début de la période creuse de l'histoire de l'intelligence artificielle. Cela étant dû au retour à la réalité des chercheurs en IA qui se retrouvaient face à des impasses, limités par le niveau technologique de l'époque. Cette baisse de vitesse dans les découvertes sera accompagnée de nombreuses critiques concernant les recherches menées jusqu'alors provoquera la déception et le retrait de nombreux investisseurs optimistes.\\
 
 Cette période marque malgré tout l'introduction de la logique dans l'IA, notemment par l'invention du langage de programmation Prolog.
 \subsection{Le retour en force (1980-1987).}
-Cette période voit apparaitre un nouveau genre de programmes d'IA appelé``Systèmes experts'', ces programmes ont pour particularités d'être limités à de domaines très restreints. En effet, ce type de programme utilise un ensemble de règles logiques qui prennent sources dans les connaissances des experts humains de son domaine. Cette limite volontaire imposée à ces programmes les rendent plus facile à concevoir et à améliorer une fois déployés. Ces programmes sont les premiers à réellement se rendre utiles pour la société.\\
+Cette période voit apparaître un nouveau genre de programmes d'IA appelé ``Systèmes experts'', ces programmes ont pour particularité d'être limités à de domaines très restreints. En effet, ce type de programme utilise un ensemble de règles logiques directement inspirées des connaissances des experts du domaine. Cette limite volontaire imposée à ces programmes les rendent plus facile à concevoir et à améliorer une fois déployés. Ces programmes sont les premiers à réellement se rendre utiles pour la société.\\
 
 Le gouvernement japonais va permettre à l'IA de se relancer économiquement en investissant 850 millions de Dollars dans le but de développer des programmes de communication (Traduction, interprétation d'images,...). Le Royaume-Uni lance un projet similaire qu'il finance à hauteur de 350 millions de livres.
 \subsection{Le nouvel hiver (1987-1993).}
 L'engouement qu'avait réussi à créer l'IA au début des années 80 grâce aux systèmes experts a en fait créé une bulle économique qui a fini par exploser à la fin de la décennie.\\
-Cette période marquera tout de même l'appartition d'une nouvelle approche de l'IA, une approche dans laquelle les intelligences artifielles devraient avoir conscience de``leur corps" et de l'environnement qui les entoure.
+Cette période marquera tout de même l'apparition d'une nouvelle approche de l'IA, une approche dans laquelle les intelligences artificielles devraient avoir conscience de``leur corps" et de l'environnement qui les entoure.
 \subsection{Depuis 1993.}
 Grâce à un niveau technologique et donc une puissance de calcul qui augmente de manière exponentielle (c.f. Loi de Moore), de nombreux objectifs de l'IA sont atteints. Les investissements n'affluent toujours pas car on ne s'est pas encore approché du tout du rêve des années 60, c'est à dire une IA aussi intelligente qu'un humain.\\
 
@@ -266,7 +263,7 @@ Depuis 1993 l'IA continue de faire ses preuves aux travers de nombreux exploits,
     \hspace{1.0cm}
     \begin{minipage}[c]{0.1\linewidth}
       \centering
-      \caption{Équivalence}
+      \caption{Équivalence.}
       \label{iff_table}
       \begin{tabular}{|c|c|c|}
         \hline $A$ & $B$ & $A \ffi B$ \\
@@ -305,9 +302,15 @@ Pour résoudre ceci, nous allons utiliser une grande table de vérité: \newpage
     \begin{table}[!hbt]
       \centering
     \begin{tabular}{|M{2.5cm}|M{2.5cm}|M{2.5cm}|}
-      \hline \begin{forest} [$\neg (\neg \phi)$ [$\phi$]]\end{forest} & \begin{forest} [$\phi \land \psi$ [$\phi$ [$\psi$]]] \end{forest} & \begin{forest} [$\neg (\psi \land \phi)$ [$\neg \psi$] [$\neg \phi$]] \end{forest} \\
-     \hline \begin{forest} [$\phi \lor \psi$ [$\phi$][$\psi$]] \end{forest}& \begin{forest} [$\neg (\phi \lor \psi)$ [$\neg \phi$ [$\neg \phi$]]] \end{forest}  & \begin{forest} [$\phi \imply \psi$ [$\neg \phi$][$\psi$]] \end{forest}\\
-      \hline \begin{forest} [$\neg (\phi \imply \psi)$ [$\phi$ [$\neg \psi$]]] \end{forest}& \begin{forest} [$\phi \ffi \psi$ [$\phi$ [$\psi$]] [$\neg \phi$ [$\neg \psi$]]] \end{forest}& \begin{forest} [$\neg (\phi \imply \psi)$ [$\phi$ [$\neg \psi$]] [$\neg \phi$ [$\psi$]]]\end{forest} \\
+      \hline \begin{forest} [$\neg (\neg \phi)$ [$\phi$]]                                      \end{forest} &
+       \begin{forest} [$\phi \land \psi$ [$\phi$ [$\psi$]]]                                    \end{forest} &
+       \begin{forest} [$\neg (\psi \land \phi)$ [$\neg \psi$] [$\neg \phi$]]                   \end{forest} \\
+      \hline \begin{forest} [$\phi \lor \psi$ [$\psi$][$\phi$]]                                \end{forest} &
+       \begin{forest} [$\neg (\phi \lor \psi)$ [$\neg \phi$ [$\neg \phi$]]]                    \end{forest} &
+       \begin{forest} [$\phi \imply \psi$ [$\neg \phi$][$\psi$]]                               \end{forest} \\
+      \hline \begin{forest} [$\neg (\phi \imply \psi)$ [$\phi$ [$\neg \psi$]]]                 \end{forest} &
+       \begin{forest} [$\phi \ffi \psi$ [$\phi$ [$\psi$]] [$\neg \phi$ [$\neg \psi$]]]         \end{forest} &
+       \begin{forest} [$\neg (\phi \ffi \psi)$ [$\phi$ [$\neg \psi$]] [$\neg \phi$ [$\psi$]]]  \end{forest} \\
       \hline
     \end{tabular}
   \end{table}
@@ -407,14 +410,14 @@ Chaque branche de l'arbre fini bien par $\bot$, nous venons donc de prouver la l
   \end{table}
 \end{adjustwidth}
 \FloatBarrier
-Le lecteur pourra s'exercer à démontrer la validité des tautologies présentées dans le tableau-ci dessus en tant qu'exercice. \\
+Le lecteur pourra s'exercer à démontrer la validité des tautologies présentées dans le tableau-ci. \\
 \subsubsection{Le besoin d'algorithme, présentation de l'algorithme de Quine.}
 
 Un ensemble de formules, tout comme une formule peut-être inconsistant, cela signifie que notre ensemble est équivalent à F,et comme nous l'avons vu dans le tableau ci-dessus, on peut déduire absolument n'importe quoi d'un ensemble inconsistant.\\
 
 Le problème des tableaux de vérités, c'est qu'ils prennent de la place, et même, beaucoup de place. C'est pour cela qu'est venu la nécessité de créer des algorithmes de résolution d'ensembles de formules, afin de faciliter le travail des logiciens, et ainsi, de réduire le temps de calcul nécessaire à un ordinateur. \\
 
-L'algorithme de Quine se déroule en plusieurs étapes, tout d'abord, nous allons simplifier, si possibles, les formules logiques contenues dans notre ensemble de formules, par exemple, au lieu d'écrire $A \lor V$, nous pourrons écrire simplement $ V $, et ainsi, supprimer ce $V$ de notre ensemble, comme $B, V \models B$, il y a bien d'autres simplifications possibles, nous laisserons au lecteur le soin d'en trouver.\\
+L'algorithme de Quine se déroule en plusieurs étapes, tout d'abord, nous allons simplifier, si possible, les formules logiques contenues dans notre ensemble de formules, par exemple, au lieu d'écrire $A \lor V$, nous pourrons écrire simplement $ V $, et ainsi, supprimer ce $V$ de notre ensemble, comme $B, V \models B$, il y a bien d'autres simplifications possibles, nous laisserons au lecteur le soin d'en trouver.\\
 
 Une fois cette première étape passée, il suffit d'utiliser un arbre logique (ou éventuellement une table de vérité) et enfin, nous avons pu prouver des formules logiques avec l'aide de l'agorithme de Quine.
 \subsection{Une logique? Des logiques!}
@@ -461,27 +464,64 @@ Il existe de nombreuses distributions de PROLOG\footnote{https://en.wikipedia.or
 En Prolog, contrairement aux règles que nous avions établies en logique des prédicats, les constantes (ici appelés Atomes) doivent commencer par une minuscule. Les variables commencent par une majucule. A cela viennent s'ajouter les listes, dénotées par des []. \\
 
 \underline{{\bf Faits et Règles.}} \\[0.2cm]
-En PROLOG, un fait s'écrit simplement \\[0.2cm]
-
+En PROLOG, un fait s'écrit simplement \
+\begin{lstlisting}[language=Prolog]
+mathematicien(turing).
+\end{lstlisting}
 Un fait n'a pas de ``corps'', et tiendra toujours. Dans ce cas-ci, cela veut dire que Turing est un mathématicien, quoiqu'il arrive ce {\bf fait} ne changera pas. \\
+Maintenant, si nous essayons de reformuler l'exemple n°1 de notre dernière section, ``tous les mathématiciens sont cools'' en Prolog, cela donne ceci :
+\begin{lstlisting}[language=Prolog]
+cool(X) :-
+    mathematicien(X).
+\end{lstlisting}
+On remarque tout de suite que cela est plutôt facile à lire, de plus, si nous ouvrons notre interprète Prolog, voilà ce que nous obtenons:
+\begin{lstlisting}[language=Prolog]
+?- cool(turing).
+true.
+\end{lstlisting}
+Tout cela est très bien, mais, si j'essaye de demander à prolog si alonzo\_church est cool, que se passe-t-il?
+\begin{lstlisting}[language=Prolog]
+?- cool(alonzo_church).
+false.
+\end{lstlisting}
+Pas grand chose comme nous le constatons, PROLOG préfère éviter de faire la moindre assomption, et répondra ``Faux'' dès qu'il ne sait pas.
 
-Maintenant, si nous essayons de reformuler l'exemple n°1 de notre dernière section, ``tous les mathématiciens sont cools'' en Prolog, cela donne ceci : \\[0.2cm]
-
-On remarque tout de suite que cela est plutôt facile à lire, de plus, si nous ouvrons notre interprète Prolog, voilà ce que nous obtenons: \\[0.2cm]
-
-Tout cela est très bien, mais, si j'essaye de demander à prolog si alonzo\_church est cool, que se passe-t-il? \\[0.2cm]
-Pas grand chose comme nous le constatons, PROLOG préfère éviter de faire la moindre assomption, et répondra ``Faux'' dès qu'il ne sait pas. \\
-
-Ensuite, Prolog nous permet de faire de l'arithmétique, regardons un peu cela, avec une fonction dont le seul rôle est d'additionner deux nombres: \\[0.2cm]
-Ouvrons maintenant l'interprète et regardons la magie opérer: \\[0.2cm]
-
-Mais, si pour une obscure raison, je décidais de vouloir avoir B, juste en entrant A et C, comment faire? Regardons d'abord comment notre première version réagirait à cela: \\[0.2cm]
-
-Heureusement pour nous, Prolog possède un module basé sur la logique par contraintes, pour l'utiliser, il suffit d'ajouter\footnote{https://www.swi-prolog.org/man/clpfd.html} \\[0.2cm]
-
-au dessus de votre fichier Prolog, maintenant, modifions légèrement notre prédicat \\[0.2cm]
-Et voilà! Essayons là maintenant avec notre interprète: \\[0.2cm]
-
+Ensuite, Prolog nous permet de faire de l'arithmétique, regardons un peu cela, avec une fonction dont le seul rôle est d'additionner deux nombres:
+\begin{lstlisting}[language=Prolog]
+ajouter(A, B, C) :-
+    C is A + B.
+\end{lstlisting}
+Ouvrons maintenant l'interprète et regardons la magie opérer:
+\begin{lstlisting}[language=Prolog]
+?- ajouter(3, 4, Res).
+Res = 7.
+\end{lstlisting}
+Mais, si pour une obscure raison, je décidais de vouloir avoir B, juste en entrant A et C, comment faire? Regardons d'abord comment notre première version réagirait à cela:
+\begin{lstlisting}[language=Prolog]
+?- ajouter(3, B, 7).
+ERROR: Arguments are not sufficiently instantiated
+ERROR: In:
+ERROR:    [9] 7 is 3+_9722
+ERROR:    [7] <user>
+ERROR:
+ERROR: Note: some frames are missing due to last-call optimization.
+ERROR: Re-run your program in debug mode (:- debug.) to get more detail.
+\end{lstlisting}
+Heureusement pour nous, Prolog possède un module basé sur la logique par contraintes, pour l'utiliser, il suffit d'ajouter\footnote{https://www.swi-prolog.org/man/clpfd.html}
+\begin{lstlisting}[language=Prolog]
+:- use_module(library(clpfd)).
+\end{lstlisting}
+au dessus de votre fichier Prolog, maintenant, modifions légèrement notre prédicat:
+\begin{lstlisting}[language=Prolog]
+ajouter_clp(A, B, C) :-
+    C #= A + B.
+\end{lstlisting}
+Et voilà! Essayons là maintenant avec notre interprète:
+\begin{lstlisting}[language=Prolog]
+?- ajouter_clp(3, B, 7).
+B = 4.
+\end{lstlisting}
+De la vraie magie!
 \subsubsection{Mon arbre familial, avec Prolog!}
 \lstinputlisting[language=Prolog]{genealogia.prolog}
 % L'exemple sera mis juste après.
@@ -635,13 +675,14 @@ Pour en conclure avec ces deux structures de données, je me propose de faire un
 Comme on le constate sur ce tableau, les arrays ont un réel avantage lorsque nous désirons uniquement lire un élément de notre structure de données, toutefois, si nous désirons modifier la structure de données en elle-même, alors, tout devient plus problématique, et cela, car notre tableau devra retrouver un autre emplacement libre pour s'y mettre en mémoire. \\
 La liste chaînée quant à elle, n'a pas besoin de se repositionner entièrement lorsqu'on lui ajoute ou qu'on lui retire un élément, il lui suffit plutôt de rajouter un pointeur vers le nouvel élément, ce qui se fait en temps constant (O(1)), peu importe la taille de la liste. Toutefois, la liste chaînée a pour inconvénient d'être en croissance linéaire lors de la recherche d'un élément dans la liste, en effet, lors de la recherche d'un élément dans une liste chaînée, le programme devra d'abord passer par tout les éléments se trouvant avant celui que l'on cherche. \\
 Pour démontrer l'importance d'utiliser la bonne structure au bon endroit, nous allons reprendre notre bon tri à bulles. \\
-Pour ceux qui en avaient oublié l'implémentation sur les tableaux, la voici:
+Pour ceux qui avaient oublié l'implémentation sur les tableaux, la voici:
 \lstinputlisting[language=Lisp]{bubble_sort.lisp}
 Le lecteur attentif remarquera l'utilisation dans ce code de ``make-array'' et de ``aref'', tout deux synonymes de l'utilisation d'un tableau. Maintenant, transformons cette implémentation en une implémentation utilisant des listes simplement chaînées. \\
 Et maintenant, voici le même algorithme, mais, sur les listes simplement chaînées cette fois-ci.
 \lstinputlisting[language=Lisp]{bad_bubble_sort.lisp}
 Et maintenant, comparons leurs temps respectifs sur des listes de tailles différentes avec l'aide d'un nouveau tableau, (mon mode opératoire reste le même, j'utilise SBCL, et la macro time, pour créer une liste contenant des nombres aléatoires, j'utilise toujours ma macro random-sample.)
 \begin{table}[H]
+  \centering
   \begin{tabular}{|c|c|c|}
     \hline & Tri à bulles (Tableaux) & Tri à bulles (SLL) \\
     \hline 10 &  0.0000008 secondes &  0.000009 secondes \\
@@ -654,7 +695,7 @@ Et maintenant, comparons leurs temps respectifs sur des listes de tailles diffé
 \end{table}
 La différence de performance entre nos deux implémentations du même algorithme est énorme, et pourtant, nous n'avons pas changé l'algorithme en lui-même! J'espère que notre petite expérience montre bien au lecteur l'importance d'un choix de structure de données adéquat.
 \subsubsection{Les tables de hachages.}
-Une table de hachage (ou un dictionnaire en python) est une des structures de données les plus utiles en ce qui concerne l'optimisation d'algorithmes. \\
+Une table de hachage (ou un dictionnaire en python) est une structure de données des plus utiles en ce qui concerne l'optimisation d'algorithmes. \\
 Son utilisation est simple; avec une table de hachage, nous relions des clés avec des valeurs. \\ Ainsi, si dans une table de hachage, je relie le mot ``bonjour'' avec le mot ``hello'', mon mot ``bonjour'' sera considéré comme étant la clé, et le mot ``hello'' comme étant la valeur. \\
 En Lisp, pour créer une telle table de hachage, il faut faire: \\
 \begin{lstlisting}[language=Lisp]
@@ -699,7 +740,7 @@ Ce programme se fait en deux parties, tout d'abord, nous définissons une table 
                  #\SPACE " "))
 \end{lstlisting}
 Voici notre dictionnaire! Ne soyez pas surpris par les ``\#\'', c'est ainsi que nous définissons des charactères en common lisp. \\
-Maintenant, la deuxième partie consistera simplement à créer une fonction chargée de transformer nos phrases vers du morse. \\
+Maintenant, la deuxième partie consistera simplement à créer une fonction chargée de transformer nos phrases en morse. \\
 \begin{lstlisting}[language=Lisp]
 (defun convert-to-morse (sentence)
   "Cette fonction s'occupe de convertir
@@ -753,7 +794,7 @@ oui
 Ton nombre a été trouvé en 9 essais
 \end{lstlisting}
 
-Cette petite introduction à la recherche par dichtomie servait surtout à donner une intuition au lecteur de l'importance des arbres binaires. \\
+Cette petite introduction à la recherche par dichotomie servait surtout à donner une intuition au lecteur de l'importance des arbres binaires. \\
 Ceux-ci fonctionnent d'une manière similaire à notre recherche dichotomique. \\
 Sur un arbre binaire, chaque noeud est soit relié à rien (ou ``nil''), soit relié à sa ``gauche'' à un noeud contenant une valeur plus petite que celle de son noeud parent, soit relié à sa ``droite'' à un noeud contenant une valeur plus grande que celle de son noeud parent. Nous pouvons donc représenter un arbre binaire ainsi: \\[0.2cm]
 
@@ -824,10 +865,10 @@ Un autre exemple d'algorithme utilisant la récursion serait l'algorithme ``quic
 
 Si le lecteur en sent l'envie, nous l'encourageons à essayer de coder la fonction récursive d'Ackermann, ou encore la McCarthy 91. \\
 \subsubsection{Programme Lisp pour résoudre parfaitement le jeu de Nim.}
-Afin que le lecteur se fasse une idée de comment utiliser dans des cas plus concrets, nous allons vous présenter une intelligence artificielle, assez basique, gagnant au jeu de Nim à plusieurs tas. (Aussi connu sous le nom de jeu de Marienbad.), dans ce jeu, plusieurs alumettes sont disposées sur plusieurs piles, le but du jeu est de récolter la dernière alumette. \\
+Afin que le lecteur se fasse une idée de comment utiliser dans des cas plus concrets, nous allons vous présenter une intelligence artificielle, assez basique, gagnant au jeu de Nim à plusieurs tas. (Aussi connu sous le nom de jeu de Marienbad.), dans ce jeu, plusieurs allumettes sont disposées sur plusieurs piles, le but du jeu est de récolter la dernière allumette. \\
 L'intelligence gagnant à ce genre de jeux est assez basique, en effet, le jeu de Nim à plusieurs tas est un jeu résolu parfaitement. \\
 La stratégie gagnante pour ce jeu est simple, nous définissons une position gagnante une position où la``nim-somme'' (qui est en réalité l'opérateur ``xor'' ou $\oplus$ appliqué à la représentation binaire de notre tas) est différent de 0, et à l'inverse, une position perdante est une position où la ``nim-somme'' appliquée aux tas est égale à 0. \\
-Un exemple de position perdante serait la position où les alumettes seraient réparties sur 4 tas avec 1 alumette sur le premier tas, 3 sur le deuxième, 5 sur le 3ième, et 7 sur le dernier. \\
+Un exemple de position perdante serait la position où les allumettes seraient réparties sur 4 tas avec 1 allumette sur le premier tas, 3 sur le deuxième, 5 sur le 3ième, et 7 sur le dernier. \\
 $$1 \oplus 3 \oplus 5 \oplus 7 = 0$$
 Pour se le prouver, on peut utiliser notre interprète Lisp et faire
 \begin{lstlisting}[language=Lisp]
@@ -839,12 +880,12 @@ Le twist que nous avons apporté est le fait que le joueur peut décider des tas
 \lstinputlisting[language=Lisp, linerange={1-2}]{Nim/nim-game-player.lisp}
 Ici, je ne fais que définir une variable globale *heaps*, celle-ci représentera les tas disponibles au travers de mon programme. \\
 \lstinputlisting[language=Lisp, linerange={4-10, 27-32, 61-67}]{Nim/nim-game-player.lisp}
-Ces deuc fonctions seront dites des ``fonction d'aide'', elles auront surtout pour utilité de ne pas devoir surcharger les fonctions principales. \\
+Ces deux fonctions seront dites des ``fonctions d'aide'', elles auront surtout pour utilité de ne pas avoir à surcharger les fonctions principales. \\
 Le lecteur attentif remarquera que je termine le nom de ces fonctions par un ``p'', cela est dû au fait que ces fonctions sont des {\bf prédicats}, elles ne peuvent retourner que ``t'' ou ``nil'' (``vrai'' ou ``faux''), ceci n'étant également qu'une convention, si le lecteur désire écrire des prédicats sans laisser de ``p'' au bout, SBCL ne lui trouvera rien à redire.\\
 Aussi, on peut remarquer dans les deux premières fonctions l'utilisation de ``reduce'', il s'agit d'une fonction destinée aux {\bf catamorphismes}, cela veut dire qu'elles permettent de passer d'une structure de données comme une liste, ou un arbre, vers un scalaire, comme un entier ou encore un flottant. \\
 Egalement, j'utilise \#', ce symbole nous permet d'expliciter que nous utilisons une fonction, et pas une variable.\\
 \lstinputlisting[language=Lisp, linerange={12-26, 34-48}]{Nim/nim-game-player.lisp}
-Nous voici enfin au cœur du programme. Avec nos fonctions ``play-winning-move'' et ``play-random-legal-move'' sont nos deux fonctions où est contenue notre joueur, les commentaires explicitant déjà leurs actions, je me concentrerai surtout sur l'implémentation. \\ Comme nous le remarquons, j'utilise {\bf let} et {\bf loop}, {\bf let} me permet de déclarer des variables dites ``locales'', cela me permet d'avoir un code propre, où chaque chose reste à sa place. \\ {\bf loop} est une macro, qui permet d'itérer, ou de répéter un nombre certain de fois une même action, je l'utilise ici en raison de la lisibilité de celle-ci, certains préfèrent la macro ``do'', je trouve cette dernière illisible, mais j'encourage le lecteur  se renseigner sur cette dernière si le coeur le lui en dit.\\
+Nous voici enfin au cœur du programme. Avec nos fonctions ``play-winning-move'' et ``play-random-legal-move'' qui sont nos deux fonctions où est contenu notre joueur, les commentaires explicitant déjà leurs actions, je me concentrerai surtout sur l'implémentation. \\ Comme nous le remarquons, j'utilise {\bf let} et {\bf loop}, {\bf let} me permet de déclarer des variables dites ``locales'', cela me permet d'avoir un code propre, où chaque chose reste à sa place. \\ {\bf loop} est une macro, qui permet d'itérer, ou de répéter un nombre certain de fois une même action, je l'utilise ici en raison de la lisibilité de celle-ci, certains préfèrent la macro ``do'', je trouve cette dernière illisible, mais j'encourage le lecteur  se renseigner sur cette dernière si le coeur le lui en dit.\\
 \lstinputlisting[language=Lisp, linerange={50-60}]{Nim/nim-game-player.lisp}
 Je ne ferai remarquer ici que l'utilisation de la macro {\bf cond}, une autre manière d'écrire des conditions en Lisp.
 \lstinputlisting[language=Lisp, linerange={69-95}]{Nim/nim-game-player.lisp}
